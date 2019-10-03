@@ -1,3 +1,5 @@
+/* General Styles */
+
 html {
   background-color: #c9b5ab;
   font-family: "PT Serif", serif;
@@ -12,6 +14,16 @@ h1, h2 {
   font-weight: bold;
 }
 
+a {
+  color: #8f2440;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3f1622;
+  text-decoration: underline;
+}
+
 /* Main Navigation */
 
 header nav ol li {
@@ -20,22 +32,16 @@ header nav ol li {
 }
 
 header nav ol a {
-  text-decoration: none;
   font-size: 1.125rem;
-  color: #8f2440;
   line-height: 1.5;
   font-weight: bold;
   font-family: "PT Sans", sans-serif;
 }
 
-header nav ol a:hover {
-  color: #3f1622;
-  text-decoration: underline;
-}
-
 /* Figure Image */
-main figure img {
-   width: 100%;
+
+img {
+  width: 100%;
 }
 
 figcaption {
@@ -44,6 +50,7 @@ figcaption {
 }
 
 /* Main Content; Div */
+
 p.bld {
   font-weight: bold;
   font-size: 1.125rem;
@@ -65,6 +72,7 @@ blockquote cite {
 }
 
 /* Lists */
+
 aside ol li {
   list-style-type: lower-greek;
 }
@@ -79,15 +87,4 @@ aside dl dt {
 
 aside ul li {
   list-style-type: circle;
-}
-
-/* Footer */
-footer small a {
-  color: #8f2440;
-  text-decoration: none;
-}
-
-footer small a:hover {
-  color: #3f1622;
-  text-decoration: underline;
 }
