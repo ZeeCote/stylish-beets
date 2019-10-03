@@ -91,4 +91,5 @@ aside dl dt {
 
 aside ul li {
   list-style-type: circle;
+  font-size: 0.8rem;
 }
