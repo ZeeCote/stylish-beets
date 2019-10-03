@@ -72,7 +72,7 @@ blockquote {
 }
 
 blockquote cite {
-  font-size: 0.8rem;
+  font-size: .8rem;
 }
 
 /* Lists */
@@ -91,5 +91,5 @@ aside dl dt {
 
 aside ul li {
   list-style-type: circle;
-  font-size: 0.8rem;
+  font-size: .8rem;
 }
