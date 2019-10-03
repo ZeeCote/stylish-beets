@@ -6,17 +6,17 @@ html {
 
 h1, h2 {
   font-size: 1.5rem;
+  line-height: 1.5;
   color: #3f1622;
-}
-
-/* Main Navigation */
-header {
   font-family: "PT Sans", sans-serif;
   font-weight: bold;
 }
 
+/* Main Navigation */
+
 header nav ol li {
   list-style: none;
+  font-weight: bold;
 }
 
 header nav ol a {
@@ -24,6 +24,8 @@ header nav ol a {
   font-size: 1.125rem;
   color: #8f2440;
   line-height: 1.5;
+  font-weight: bold;
+  font-family: "PT Sans", sans-serif;
 }
 
 header nav ol a:hover {
